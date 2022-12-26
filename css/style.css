@@ -5,10 +5,7 @@
   --p-color: #6b6a75;
 }
 
-::selection {
-  background-color: var(--main-color);
-  color: #fff;
-}
+
 
 * {
   font-family: "Nunito", sans-serif;
@@ -85,6 +82,7 @@ html {
 body {
   box-sizing: border-box;
   background-color: #fdf9ff;
+  user-select: none;
 }
 #loaderr {
   background: #fff url(../images/sidna-mohammed.png) no-repeat center center;
@@ -585,6 +583,8 @@ nav a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
+  margin: 0;
+  padding-bottom: 5px;
 }
 .about .container .all-cols .call .text span,
 .team .container .kol-eldehk .left .call .text span {
