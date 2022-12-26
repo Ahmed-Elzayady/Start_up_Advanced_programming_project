@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap");
 :root {
-  --main-color: #06a3da;
+  --main-color: #37b182;
   --sec-color: #091e2e;
   --p-color: #6b6a75;
 }
@@ -84,6 +84,7 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: #fdf9ff;
 }
 #loaderr {
   background: #fff url(../images/sidna-mohammed.png) no-repeat center center;
@@ -94,13 +95,14 @@ body {
 }
 /* start media */
 .media {
-  background-color: #091e3e;
+  background-color: #000;
   color: #fff;
-  padding: 5px 20px 5px 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+
 }
 .media .left span {
   padding: 5px;
