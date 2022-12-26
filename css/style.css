@@ -658,12 +658,8 @@ nav a:hover {
   margin-bottom: 60px;
 }
 
-.why .container .animation .move,
-.service .container .animation .move,
-.price .container .animation .move,
-.quote .container .animation .move,
-.blog .container .animation .move,
-.touch .animation .move {
+.move
+ {
   height: 100%;
   width: 5px;
   background-color: #fff;
